@@ -3,8 +3,7 @@
 
 #define N 50
 
-void counting_sort(int* array, int n, int max, int* out)
-{
+void counting_sort(int* array, int n, int max, int* out) {
     int count[N] = {0};
 
     for (int i = 0; i < n; i++) {
